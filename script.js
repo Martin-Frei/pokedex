@@ -28,8 +28,10 @@ function smallCardTemplate(p) {
   let cardDiv = document.createElement("div");
   let type = p.types[0].type.name;
   cardDiv.innerHTML = `
+        <div class="smallImg">
         <h2>${p.id} ${p.name}</h2>   
-
+        <h2>Experience: ${p.base_experience} <img src="${p.sprites.front_default}" alt="${p.name}"></h2> 
+        </div>
     `;
   cardInBox.appendChild(cardDiv);
 }
