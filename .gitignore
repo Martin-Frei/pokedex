@@ -1,6 +1,11 @@
-@"
+# Node/VSCode/OS files
 node_modules/
 .vscode/
 .DS_Store
 *.log
-"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+# Projekt-spezifische Dateien
+jsonFormatter.html
+jsonFormatter2.html
+pokemon-dashboard.jsx
+pokemon-dashboard.html

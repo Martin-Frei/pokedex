@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 :root {
     --header-height: 120px;
     --modal-offset: 20px;
 }
 
 * {
+=======
+*{
+>>>>>>> 15caa51b736d7cc628b9eef0718f6b21f3ba1f1f
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
     background-color: aquamarine;
     font-family: 'Arial', sans-serif;
@@ -234,11 +239,36 @@ body {
 }
 
 #bigCard {
+=======
+body{
+    padding: 32px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.smallImg{
+    border: 2px solid grey;
+    width: 250px;
+    height: 250px;
+    padding:16px
+}
+
+.smallImg img{
+    width: 150px;
+    height: 150px;
+}
+
+
+#bigCard{
+>>>>>>> 15caa51b736d7cc628b9eef0718f6b21f3ba1f1f
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     max-width: 70%px; 
     margin: 0 auto; 
 }
@@ -729,4 +759,30 @@ body {
     .next-btn {
         margin: 0; 
     }
+=======
+}
+
+.modelContent{
+    background-color: aqua;
+    width: 50%;
+    height: 50vh;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9;
+}
+
+#model{
+    width: 80%;
+    height: 70vh;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    /* z-index: 10; */
+}
+
+.hidden{
+    display: none;
+>>>>>>> 15caa51b736d7cc628b9eef0718f6b21f3ba1f1f
 }
